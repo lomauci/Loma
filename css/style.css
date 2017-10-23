@@ -1,0 +1,114 @@
+body{
+    font-family: 'Josefin Slab', serif;
+    background-color: #f9f9f9;
+    color: #3d3d3d;
+    min-width: 840px;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0px;
+}
+
+#container {
+    z-index: 102;
+}
+
+#white_overlay{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#directory_table{
+    margin: 25px auto 15px auto;
+}
+
+#directory_table td{
+    padding: 0px 30px;
+}
+
+#directory_table a{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+#directory_table a:visited{
+    text-decoration: none;
+    color: #3d3d3d;
+}
+
+#directory_table a:hover{
+    text-decoration: none;
+    color: #747171;
+}
+
+#title_header{
+    margin: 5px auto;
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+#introduction {
+    font-size: 31px;
+    margin: 0px 0px;
+}
+
+#introduction_sub {
+    font-size: 19px;
+    margin: 0px 0px;
+}
+
+#line{
+    margin: 40px auto;
+    width: 769px;
+    height: 1px;
+    background-color: #3d3d3d;
+}
+
+.bubble{
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:auto;
+}
+
+.bubble_header{
+    background-color: #5c8dea;
+    border-radius: 5px 5px 0px 0px;
+    height: 36px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 39px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.bubble_content{
+    margin: 30px 10px 0px 10px;
+/*    margin: 10px 10px;*/
+    font-size: 20px;
+}
+
+.home_content_table{
+    margin: 20px auto;
+}
+
+.home_content_table td{
+    padding: 0px 15px;
+}
+
+.typed {
+    font-size: 50px;
+    text-align: center;
+}

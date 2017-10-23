@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/typed.js"></script>
+        <title>LOMA</title>
+    </head>
+
+    <body>
+
+        <div id="container">
+            <table id="directory_table">
+                <tbody>
+                    <tr>
+                        <td><a href="index.html">Home</a></td>
+                        <td><a href="gallery.html">Gallery</a></td>
+                        <td><a href="schedule.html">Schedule</a></td>
+                        <td><a href="bucket.html">Calendar</a></td>
+                        <td><a href="contact.html">Contact</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br><br>
+
+        <div class="typed" style="display: inline; text-align: center"></div>
+
+
+
+
+    </body>
+
+    <script>
+        $(document).ready(function() {
+            var typed = new Typed('.typed', {
+                strings: ["Hello", "Do you know the best hall in UC Irvine?", "It is... ", "Loma", "or", "Loman Empire"],
+                typeSpeed: 30,
+                startDelay: 800,
+                backSpeed: 40,
+                smartBackspace: true,
+                shuffle: false,
+                backDelay: 1200,
+//                fadeOut: true
+                loop: false,
+                showCursor: false
+            });
+        })
+    </script>
+</html>
